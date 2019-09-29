@@ -35,7 +35,7 @@ Then a gif.gif file will be placed in the root directory.
 
 ```javascript
 const { loadImage, createCanvas } = require('canvas');
-const GIF = require('../index');
+const GIF = require('gif.node');
 const fs = require('fs');
 const path = require('path');
 
