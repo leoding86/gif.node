@@ -4,7 +4,8 @@
   "description": "Full-featured GIF encoder that runs in node. Modified from jnordberg/gif.js which is a Javascript GIF encoder runs in browser.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "demo": "node ./demo/index.js"
   },
   "keywords": [
     "gif",
